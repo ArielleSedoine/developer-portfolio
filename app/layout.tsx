@@ -13,9 +13,63 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
-  title: "Arielle Sedoine | Cloud Software Engineer",
+  title: {
+    default: "Arielle Sedoine | Cloud Software Engineer",
+    template: "%s | Arielle Sedoine",
+  },
+
   description:
-    "Cloud Software Engineer specializing in cloud-native distributed systems, real-time streaming platforms, Python, Kubernetes, and Google Cloud Platform.",
+    "Cloud Software Engineer specializing in cloud-native distributed systems, real-time streaming platforms, Python, Kubernetes, DevOps, and Google Cloud Platform.",
+
+  keywords: [
+    "Arielle Sedoine",
+    "Cloud Software Engineer",
+    "Cloud Engineer",
+    "DevOps Engineer",
+    "Google Cloud Platform",
+    "GCP",
+    "Kubernetes",
+    "Python",
+    "Distributed Systems",
+    "Real-Time Streaming",
+    "AI Systems",
+    "Cloud Architecture",
+    "Next.js",
+  ],
+
+  authors: [
+    {
+      name: "Arielle Sedoine",
+    },
+  ],
+
+  creator: "Arielle Sedoine",
+
+  metadataBase: new URL(
+    "https://developer-portfolio-6p1m.vercel.app"
+  ),
+
+  openGraph: {
+    title: "Arielle Sedoine | Cloud Software Engineer",
+    description:
+      "Portfolio showcasing cloud-native systems, DevOps automation, AI platforms, and real-time streaming solutions.",
+    url: "https://developer-portfolio-6p1m.vercel.app",
+    siteName: "Arielle Sedoine Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Arielle Sedoine | Cloud Software Engineer",
+    description:
+      "Cloud Software Engineer specializing in GCP, Kubernetes, Python, DevOps and AI systems.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 
@@ -31,10 +85,9 @@ export default function RootLayout({
       <body className={`${inter.className} bg-black text-white`}>
 
         <Navbar />
-        {/* Animated Background */}
+
         <AnimatedBackground />
 
-        {/* Page Content */}
         <main className="relative z-10">
           {children}
         </main>
