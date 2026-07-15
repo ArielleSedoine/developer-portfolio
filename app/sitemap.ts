@@ -1,15 +1,44 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://arielle-sedoine.dev";
+
   return [
     {
-      url: "https://developer-portfolio-6p1m.vercel.app",
+      url: baseUrl,
       lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 1,
     },
-
     {
-      url: "https://developer-portfolio-6p1m.vercel.app/projects",
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/experience`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/projects`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/skills`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.7,
     },
   ];
 }

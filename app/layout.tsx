@@ -46,14 +46,14 @@ export const metadata: Metadata = {
   creator: "Arielle Sedoine",
 
   metadataBase: new URL(
-    "https://developer-portfolio-6p1m.vercel.app"
+    "https://arielle-sedoine.dev"
   ),
 
   openGraph: {
     title: "Arielle Sedoine | Cloud Software Engineer",
     description:
       "Portfolio showcasing cloud-native systems, DevOps automation, AI platforms, and real-time streaming solutions.",
-    url: "https://developer-portfolio-6p1m.vercel.app",
+    url: "https://arielle-sedoine.dev",
     siteName: "Arielle Sedoine Portfolio",
     locale: "en_US",
     type: "website",

@@ -13,10 +13,10 @@ export default function Home() {
             "@type": "Person",
             name: "Arielle Sedoine",
             jobTitle: "Cloud Software Engineer",
-            url: "https://developer-portfolio-6p1m.vercel.app",
+            url: "https://arielle-sedoine.dev",
             sameAs: [
               "https://github.com/ArielleSedoine",
-              " https://www.linkedin.com/in/arielle-60178832a/",
+              "https://www.linkedin.com/in/arielle-60178832a/",
             ],
           }),
         }}
