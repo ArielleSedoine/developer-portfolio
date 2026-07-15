@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
     },
 
     sitemap:
-      "https://arielle-sedoine.dev/sitemap.xml",
+      "https://developer-portfolio-6p1m.vercel.app/sitemap.xml",
   };
 }
