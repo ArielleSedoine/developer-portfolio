@@ -359,7 +359,7 @@ export default function Hero() {
 
             <a
 
-              href="/resume.pdf"
+              href="/Resume.pdf"
 
               target="_blank"
 
