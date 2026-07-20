@@ -38,7 +38,7 @@ const contacts = [
       "Download my latest resume and professional experience.",
     icon: <HiOutlineDocumentText size={30} />,
     link:
-      "/resume.pdf",
+      "/Resume.pdf",
     label: "Open Resume",
   },
 
